@@ -12,5 +12,9 @@ public class Main {
       .setFoamedMilk("フォーミー")
       .setSize("グランデ");
     System.out.println(caramelMacchiato.toString());
+
+    Builder cappuccino = new CappuccinoBuilder();
+    cappuccino.setMilk("ツーパーセント");
+    System.out.println(cappuccino.toString());
   }
 }
